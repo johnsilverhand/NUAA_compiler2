@@ -1,0 +1,29 @@
+progr xi
+var b,c,j;
+const a:=10;
+procedure p(x,y);
+begin
+	var j;
+	j=b+a;
+	write(j);
+	c:=x+y;
+	write(c)
+end
+procedure q(x,y);
+begin
+	j:=2*b+a;
+	write(j;
+	c:=x*y;
+	write(c)
+end
+begin
+	read(b);
+	while b<>0
+	begin
+		call p(1,2);
+		read(c+1);
+		write(2*c);
+                call q(2,3);
+		read(b)
+	end
+end
